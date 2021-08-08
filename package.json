@@ -1,0 +1,62 @@
+{
+  "_from": "wandboxjs",
+  "_id": "wandboxjs@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-IXFQgzWxKN1U/3N8ACCDsCXE6jNGztN+7z9rePrhFTPWzwiOrPulT+jjfx/TSfcppdJ5e+1IQdDQeRhNFf1v4A==",
+  "_location": "/wandboxjs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "wandboxjs",
+    "name": "wandboxjs",
+    "escapedName": "wandboxjs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/wandboxjs/-/wandboxjs-2.0.0.tgz",
+  "_shasum": "31180a023e95f916dc4ecaf8643e3ece6a39d2f4",
+  "_spec": "wandboxjs",
+  "_where": "F:\\Projeler\\test-123",
+  "author": {
+    "name": "abcdef, shynox"
+  },
+  "bugs": {
+    "url": "https://github.com/5elenay/wandboxjs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "deprecated": false,
+  "description": "Basic wandbox api wrapper.",
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.12"
+  },
+  "homepage": "https://github.com/5elenay/wandboxjs#readme",
+  "keywords": [
+    "compiler",
+    "wandbox",
+    "compile",
+    "language compile"
+  ],
+  "license": "MIT",
+  "main": "dist",
+  "name": "wandboxjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5elenay/wandboxjs.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon index.ts",
+    "format": "prettier --write .",
+    "start": "node dist/index.js"
+  },
+  "version": "2.0.0"
+}
